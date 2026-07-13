@@ -107,10 +107,11 @@
     margin-top:600px;
     display: flex;
     justify-content: center;
+    margin-bottom:35px;
 }
 .intro-image-parent
 {
-    margin-top:20px;
+    margin-top:2gi0px;
     margin-left:100px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -119,4 +120,73 @@
 .intro-image-parent img{
     height:300px;
     width:500px;
+    border:2px solid green;
+}
+
+/* image section ends */
+
+.secure-parent
+{
+    margin-top:30px;
+    margin-bottom:40px;
+    text-align: center;
+}
+.secure-parent h1{
+    margin:10px;
+}
+
+.card-parent
+{
+    margin-left:200px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    width:950px;
+    gap:100px;
+}
+
+
+.card-1{
+    border:1px solid red;
+    padding:35px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.card-2{
+    background-color: black;
+    color:white;
+    padding:35px;
+    text-align: left;
+    border-radius: 10px;
+}
+.card-3
+{
+
+    background-color: aquamarine;
+     padding:35px;
+    text-align: left;
+    border-radius: 10px;
+
+}
+
+.card-btn
+{
+    background-color: white;
+    color:blue;
+    padding:10px 20px;
+    margin:7px;
+    cursor:pointer;
+    border-color: 1px solid black;
+    border-radius: 7px;
+}
+
+.footer
+{
+    margin-top: 150px;
+    text-align: center;
+    padding:200px;
+    background-color: #EDE9FE;
+    border:1px dashed magenta;
+    
 }
