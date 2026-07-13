@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navigation  */
+.nav-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-parent img {
+    padding-left: 120px;
+}
+
+/* navigation link */
+.nav-link {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+/* navigaton href styles */
+.nav-link a {
+    text-decoration: none;
+}
+
+.nav-button-parent {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 120px;
+}
+
+/* navigation button */
+.nav-button-parent button {
+    background-color: #1D4ED8;
+    display: flex;
+    padding: 5px 20px;
+    border-radius: 7px;
+    color: white;
+    cursor:pointer;
+}
+
+.nav-button-parent button:hover
+{
+    background-color:aqua;
+    color:red;
+}
+/* navigation style ends */
+
+/* hero section style starts  */
+
+.hero-parent {
+    width: 100%;
+    height: 50vh;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.overlay-on-img h2 {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.overlay-on-img p {
+    position: absolute;
+    top: 38%;
+    left: 33%;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.overlay-on-img button {
+    position: absolute;
+    top: 140%;
+    left: 45%;
+}
+
+.hero-btn {
+    background-color: #1D4ED8;
+    padding: 15px 25px;
+    border-radius: 7px;
+    font-size:larger;
+    color: white;
+    cursor:pointer;
+}
+
+.hero-btn:hover
+{
+    background-color: aqua;
+    color:red;
+}
